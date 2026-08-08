@@ -1,0 +1,33 @@
+import { Navbar } from '@/components/navbar'
+import { Hero } from '@/components/hero'
+import { Countdown } from '@/components/countdown'
+import { About } from '@/components/about'
+import { Experience } from '@/components/experience'
+import { Gallery } from '@/components/gallery'
+import { Venue } from '@/components/venue'
+import { Tickets } from '@/components/tickets'
+import { Sponsors } from '@/components/sponsors'
+import { InstagramFeed } from '@/components/instagram-feed'
+import { Faq } from '@/components/faq'
+import { Contact } from '@/components/contact'
+import { Footer } from '@/components/footer'
+
+export default function Page() {
+  return (
+    <main className="relative overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <Tickets />
+      <Countdown />
+      <About />
+      <Experience />
+      <Gallery />
+      <Venue />
+      <Sponsors />
+      <InstagramFeed />
+      <Faq />
+      <Contact />
+      <Footer />
+    </main>
+  )
+}
