@@ -3,6 +3,7 @@ import { Hero } from '@/components/hero'
 import { Countdown } from '@/components/countdown'
 import { About } from '@/components/about'
 import { Experience } from '@/components/experience'
+import { Workshops } from '@/components/workshops'
 import { Gallery } from '@/components/gallery'
 import { Venue } from '@/components/venue'
 import { Tickets } from '@/components/tickets'
@@ -21,6 +22,7 @@ export default function Page() {
       <Countdown />
       <About />
       <Experience />
+      <Workshops />
       <Gallery />
       <Venue />
       <Sponsors />
